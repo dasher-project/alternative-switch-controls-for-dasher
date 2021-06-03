@@ -1,0 +1,42 @@
+/* This is the CSS file for the Markdown file of the same name. It imports a
+ * common CSS for branded documents.
+ */
+ @import url(../../multimarkdown-chrome-pdf/vmware.css);
+
+/* PDF generation can be run with either of the following command lines.
+
+     docker run -v $PWD:/job mmd-chrome-pdf -r ImpreciseMotions.md
+     python3 ../../multimarkdown-chrome-pdf/mmdchromepdf.py -r ImpreciseMotions.md
+ */
+
+body {
+    /* No sidebar, but document margins. */
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+    font-size: 12pt;
+}
+
+h1, h2, h3 { font-size: 18pt; }
+
+li { line-height: 100%; }
+div.TOC li { line-height: 135%; }
+
+img[src="adhoc05_Patches.svg"], img[src="adhoc05_Patches.svg"] + figcaption,
+img[src="adhoc04_Gloves.svg"], img[src="adhoc04_Gloves.svg"] + figcaption
+{
+    width: 15cm;
+}
+
+figcaption {text-align: center;}
+
+#SwitchControlforTextEntry,
+#diagram\:coveringeithercameraasatwo-switchcontrol,
+#Gesturingacrossacameraasatwo-switchcontrol,
+#diagram\:gesturingacrossacameraasatwo-switchcontrol,
+#Coveringacameraasasingle-switchcontrol,
+#diagram\:gloves,
+#patches,
+#diagram\:patches
+{
+    break-before: page;
+}
