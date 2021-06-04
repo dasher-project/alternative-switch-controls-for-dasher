@@ -5,7 +5,7 @@ could be used with the Dasher text entry system.
 The abstract could be like:
 
 >   Controlling a user interface with imprecise motions without the need for
->   additional (or single-purpose) hardware.”
+>   additional (or single-purpose) hardware.
 
 # Files
 
