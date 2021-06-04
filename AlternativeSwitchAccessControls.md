@@ -69,7 +69,7 @@ device.
 Representative locations of the screen and cameras are illustrated in the
 following diagram.
 
-![**Diagram 1:** Representative device with front and rear cameras](adhoc01_RepresentativeDevice1.svg)
+![**Diagram 1:** Representative device with front and rear cameras](adhoc01_RepresentativeDeviceCameras.svg)
 
 ## Switch Control for Text Entry
 One use of switch controls is for text entry. There are a number of approaches
