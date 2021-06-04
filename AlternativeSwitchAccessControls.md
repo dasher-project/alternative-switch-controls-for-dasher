@@ -396,7 +396,16 @@ The following notes apply to all the above proposals.
     [CamKpell Mini Webcam](https://www.amazon.co.uk/Million-Computer-Microphone-Desktop-Calling/dp/B07VTSDFFR/).
 
 # Document Information
-This document is for internal circulation only.
+Alternative Switch Controls for Dasher  
+Copyright 2021 VMware, Inc.
+
+This product is licensed to you under the MIT license (the "License").  You may
+not use this product except in compliance with the MIT License.  
+
+This product may include a number of subcomponents with separate copyright
+notices and license terms. Your use of these subcomponents is subject to the
+terms and conditions of the subcomponent's license, as noted in the LICENSE
+file. 
 
 ## Attribution
 Words and pictures by Jim Hawkins.
